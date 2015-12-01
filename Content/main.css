@@ -127,6 +127,16 @@ h6 {
     .sidepop-three {
         position: absolute;
         left: 100%;
-        top: 567px;
+        top: 573.5px;
     }
 }
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+
