@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+    color: black;
+
+}
+
+.content {
+        border: 1px solid;
+    }
+
+.active {
+    background-color: darkgrey;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 0.83em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.67em;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 1233px) {
+/* Main navigation styles */
+    header {
+        margin: 0;
+    }
+
+    .mainNav {
+		height: 80px;
+	}
+	
+	.mainNav ul {
+		text-align: right;
+        list-style: none;
+		margin: 0;
+		padding: 0;		
+        background: #efefef;          
+	}
+	
+	.mainNav li {
+		display: inline-block;
+        border: solid;
+        border-width: 1px 1px 1px 1px;    
+		overflow: auto;
+	}
+	
+	.mainNav li:hover {
+		background-color: darkgrey;
+	}
+	
+	.mainNav a {
+		padding: 0 10px;
+		line-height: 40px;
+		width: 150px;
+		height: 80px;
+		text-decoration: none;
+		color: black;
+		display: inline-block;
+        text-align: center;
+	}
+	
+	/* Dropdown list styles */
+	.dropdown {
+		position: absolute;
+		top: 80px;
+		display: none;
+	}
+	
+	.dropdown li {
+		display: block;
+	}
+	
+	.dropdown a {
+		width: 120px;
+	}
+	
+	li:hover > .dropdown {
+		display: block;
+		width: 150px;
+        text-align: center;
+	}
+
+
+    .sidepop {
+        position: absolute;
+        left: 100%;
+        top: 0px;
+    }
+
+    .sidepop-two {
+        position: absolute;
+        left: 100%;
+        top: 161.5px;
+    }
+
+    .sidepop-three {
+        position: absolute;
+        left: 100%;
+        top: 567px;
+    }
+}
